@@ -2,16 +2,18 @@
     "name": "Getting Started Example",
     "version": "1.0",
     "description": "Build an Extension!",
-    "permissions": ["storage"],
     "background": {
       "scripts": [
-        "background.js",
-        "dom/TimeTab.js"
+        "event.js",
+        "runner.js",
+        "dom/TabDao.js",
+        "dom/TimeTab.js",
+        "dom/TimeTabDao.js"
       ],
       "persistent": false
     },
     "permissions": [
-      "tabs"
+      "tabs", "idle"
     ],
     "manifest_version": 2
   }

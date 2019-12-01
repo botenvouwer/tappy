@@ -21,14 +21,17 @@ It tries to do this with a little bit of intelligence.
 The closing strategy looks somewhat like this:
 
   1. Do not close tabs configured as `Persistent tabs`;
-  2. Close `Higly disposable` tabs after not used for x minutes;
-  3. Do not close tabs that play media on the background; //todo: check if this is possible
-  4. Smart time based close:
+  1. Close duplicate tabs;
+  1. Close `Higly disposable` tabs after not used for x minutes;
+  1. Do not close tabs that play media on the background; //todo: check if this is possible
+  1. Smart time based close:
      1. Configurable timeout `closeTimeout`;
      1. Calculate time approximately needed to read page `ReadTime`;
-     2. Track time page is active in browser `ActiveTime`;
-     3. Close if `Readtime < ActiveTime && closeTimeout < notActiveTime`.
+     1. Track time page is active in browser `ActiveTime`;
+     1. Close if `Readtime < ActiveTime && closeTimeout < notActiveTime`.
      
+## Group tabs some way and make it bookmarkable
+
 This way it is possible for you to configure the closing behaviour in a way you like it.
 There are multiple strategies possible and you can use them together.
 
@@ -36,3 +39,9 @@ You get to choose.
 
 # How it works
 //Todo: add technical description
+
+# Potential alternatives
+
+https://chrome.google.com/webstore/detail/toby-for-chrome/hddnkoipeenegfoeaoibdmnaalmgkpip
+https://chrome.google.com/webstore/detail/tab-snooze/pdiebiamhaleloakpcgmpnenggpjbcbm
+https://chrome.google.com/webstore/detail/tab-manager-plus-for-chro/cnkdjjdmfiffagllbiiilooaoofcoeff
