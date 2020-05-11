@@ -4,7 +4,7 @@ class TimeTab {
     constructor(tab) {
         this.tab =  tab;
         this.opened = this.getCurrentDateTime();
-        this.lastActive = null; //todo: make list 
+        this.lastActive = null; //todo: make list
         this.watchedTime = 0;
         this.calculatedReadTime = this.calculateReadTime();
         this.active = false;
@@ -16,8 +16,6 @@ class TimeTab {
 
     calculateReadTime(){
         //Todo: Get contents of tab and calculate the time needed for reading
-
-
     }
 
     pulseTab(){
@@ -25,6 +23,5 @@ class TimeTab {
         this.lastActive = this.getCurrentDateTime();
         this.watchedTime += this.lastActive - this.opened;
     }
-
 
 }

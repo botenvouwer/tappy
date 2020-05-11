@@ -29,7 +29,9 @@ The closing strategy looks somewhat like this:
      1. Calculate time approximately needed to read page `ReadTime`;
      1. Track time page is active in browser `ActiveTime`;
      1. Close if `Readtime < ActiveTime && closeTimeout < notActiveTime`.
-     
+  1. Close when page is 100% scrolled;
+
+
 ## Group tabs some way and make it bookmarkable
 
 This way it is possible for you to configure the closing behaviour in a way you like it.
