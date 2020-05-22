@@ -47,3 +47,7 @@ You get to choose.
 https://chrome.google.com/webstore/detail/toby-for-chrome/hddnkoipeenegfoeaoibdmnaalmgkpip
 https://chrome.google.com/webstore/detail/tab-snooze/pdiebiamhaleloakpcgmpnenggpjbcbm
 https://chrome.google.com/webstore/detail/tab-manager-plus-for-chro/cnkdjjdmfiffagllbiiilooaoofcoeff
+
+note take a look at
+
+https://github.com/gopinav/Chrome-Extensions/tree/master/HelloWorld

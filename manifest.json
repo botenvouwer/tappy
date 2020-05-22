@@ -1,7 +1,14 @@
 {
-    "name": "Getting Started Example",
+    "name": "Tappy",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Closes your tabs for you",
+    "browser_action":{
+	    "default_icon":{
+	    	"32":"tappy.png"
+	    },
+	    "default_title":"Tappy",
+	    "default_popup":"popup.html"
+    },
     "background": {
       "scripts": [
         "event.js",
